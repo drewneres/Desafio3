@@ -29,15 +29,8 @@ Antes de iniciar, certifique-se de ter instalado:
 ## 🚀 **Configuração do Ambiente**
 ### **1️⃣ Clone o Repositório**
 ```sh
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/drewneres/Desafio3.git
 cd seu-repositorio
-```
-
-### **2️⃣ Criando Branches (Opcional)**
-```sh
-git checkout -b develop
-git checkout -b feature/event-manager
-git checkout -b feature/ticket-manager
 ```
 
 ---
