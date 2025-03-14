@@ -1,0 +1,46 @@
+# Diretórios do IntelliJ IDEA / VSCode
+.idea/
+.vscode/
+
+# Diretórios de build do Maven
+target/
+*.jar
+*.war
+*.ear
+
+# Arquivos de dependência do Maven
+.mvn/
+**/pom.properties
+**/pom.xml.versionsBackup
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+
+# Logs e arquivos temporários
+logs/
+*.log
+*.out
+*.pid
+hs_err_pid*
+
+# Arquivos de configuração sensíveis
+application.properties
+application.yml
+application-dev.properties
+application-prod.properties
+
+# Credenciais do MongoDB Atlas (evite subir informações sensíveis)
+.env
+config.json
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos compilados do Java
+**/*.class
+
+# Arquivos gerados pelo Eclipse / IntelliJ
+*.iml
+*.ipr
+*.iws
