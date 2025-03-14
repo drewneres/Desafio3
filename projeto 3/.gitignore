@@ -25,8 +25,8 @@ hs_err_pid*
 # Arquivos de configuração sensíveis
 application.properties
 application.yml
-application-dev.properties
-application-prod.properties
+#application-dev.properties
+#application-prod.properties
 
 # Credenciais do MongoDB Atlas (evite subir informações sensíveis)
 .env
