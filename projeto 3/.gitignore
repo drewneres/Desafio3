@@ -23,7 +23,7 @@ logs/
 hs_err_pid*
 
 # Arquivos de configuração sensíveis
-application.properties
+#application.properties
 application.yml
 #application-dev.properties
 #application-prod.properties
