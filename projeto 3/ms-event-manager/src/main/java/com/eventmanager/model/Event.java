@@ -21,4 +21,9 @@ public class Event {
     private String bairro;
     private String cidade;
     private String uf;
+    private String description; 
+
+    public String getDescription() {
+        return description;  // Acessa diretamente o campo description.
+    }
 }

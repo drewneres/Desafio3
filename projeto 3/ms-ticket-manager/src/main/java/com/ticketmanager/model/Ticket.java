@@ -20,8 +20,14 @@ public class Ticket {
     private String eventName;
     private Double BRLamount;
     private Double USDamount;
-    public void setStatus(String string) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'setStatus'");
+    private String status; // 👈 novo campo
+
+    // ✅ Agora esses métodos funcionam de verdade
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getStatus() {
+        return this.status;
     }
 }

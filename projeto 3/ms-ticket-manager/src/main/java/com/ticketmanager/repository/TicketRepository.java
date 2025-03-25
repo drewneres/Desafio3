@@ -7,4 +7,6 @@ import java.util.List;
 public interface TicketRepository extends MongoRepository<Ticket, String> {
     boolean existsByEventId(String eventId);
     List<Ticket> findByEventId(String eventId);
+    List<Ticket> findByCpf(String cpf); // ✅ Aqui está o novo método
+
 }

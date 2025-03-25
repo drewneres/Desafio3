@@ -45,4 +45,11 @@ public class TicketService {
             ticketRepository.save(ticket);
         });
     }
+    public void cancelTicketByCpf(String cpf) {
+        List<Ticket> tickets = ticketRepository.findByCpf(cpf);
+        for (Ticket ticket : tickets) {
+            ticket.setStatus("cancelado");
+            ticketRepository.save(ticket);
+        }
+}
 }
